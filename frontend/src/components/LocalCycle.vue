@@ -2,7 +2,7 @@
 
 import { toast } from 'vue3-toastify'
 
-const cycleTime = 10000
+const cycleTime = 7000
 const delayTime = 300
 
 async function delay(duration: number) {
@@ -17,9 +17,12 @@ const startCycle = async () => {
   const endTime = Date.now() + cycleTime
   toast.info('Start cycle')
   toast.error('UI is blocked')
+  toast('' + endTime)
+  toast('' + cycleTime)
   await delay(delayTime)
   while (Date.now() < endTime) {
     const randomNumber = Math.random()
+    console.log(Date.now())
   }
   toast.success('End cycle')
 }
@@ -28,6 +31,7 @@ async function cycle() {
   const endTime = Date.now() + cycleTime
   while (Date.now() < endTime) {
     const randomNumber = Math.random()
+    console.log(Date.now())
   }
 }
 
