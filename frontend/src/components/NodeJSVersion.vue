@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2> Socket Connection </h2>
+    <h2> NodeJS Version </h2>
     <div>
       <button @click="startBackWorker">Start</button>
       <button @click="stopBackWorker">Stop</button>

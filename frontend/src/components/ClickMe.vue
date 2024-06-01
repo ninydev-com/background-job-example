@@ -8,7 +8,7 @@ const testClick = () => {
 
 <template>
   <div>
-    <h2> Test Click Me </h2>
+    <h2> Test: Click Me </h2>
     <div>
       <button @click="testClick"> Click Me</button>
     </div>
