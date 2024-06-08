@@ -1,15 +1,14 @@
 # Who to start worker
 
-## Introduction
-
 ## How to Use
 
 To run the project, follow these steps:
 
 1. Clone the repository.
-2. Install dependencies using the command `npm install`.
-3. Launch the project with `npm run dev`.
-4. Open the project at [http://localhost:5173](http://localhost:3000)
+2. Install dependencies in backend and fronted.
+3. Launch the frontend with `npm run dev` in frontend.
+4. Start backend
+5. Open the project at [http://localhost:5173](http://localhost:3000)
 
 ## License
 

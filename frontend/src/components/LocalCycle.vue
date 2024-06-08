@@ -17,8 +17,6 @@ const startCycle = async () => {
   const endTime = Date.now() + cycleTime
   toast.info('Start cycle')
   toast.error('UI is blocked')
-  toast('' + endTime)
-  toast('' + cycleTime)
   await delay(delayTime)
   while (Date.now() < endTime) {
     const randomNumber = Math.random()
